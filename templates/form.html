@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Sentence Transformer</title>
+{% endblock %}
+
+{% block body %}
+<div class="wrapper">
+    <div class="Input">
+        <form action="/" method="POST">
+            <input type="text" name="TextBox" style="width: 200px; height: 200px;"><br>
+            <input type="submit" name="convertText" value="FTC" >
+            <input type="submit" name="convertText" value="CTF">
+        </form>
+    </div>
+</div>
+
+{% endblock %}
